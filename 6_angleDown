@@ -1,0 +1,7 @@
+strokeWeight(1);
+
+var x = 5
+
+for (x, y = 10; x < width; x = x + 5, y = y + 10) {
+    line(x, 0, x, y);
+}
