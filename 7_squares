@@ -1,0 +1,9 @@
+strokeWeight(1);
+noFill();
+
+rectMode(CENTER);
+
+
+for (length = 30; length < width/6; length = length + 10) {
+         rect(x = width/6, height/2, length, length);
+    }
