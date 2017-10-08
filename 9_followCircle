@@ -1,0 +1,24 @@
+noStroke();
+fill(0);
+
+ellipseMode(CENTER);
+
+var track = 0.7;
+var x = 0;
+var y = 0;
+
+
+while (true) {
+    background(255);
+  
+    var targetX = mouseX;
+    var dx = targetX - x;
+  	x += dx *track;
+  	
+   	var targetY = mouseY;
+  	var dy = targetY - y;
+  	y += dy * track;
+
+  	ellipse(x, y, 15, 15);
+  
+}
